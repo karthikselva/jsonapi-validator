@@ -1,6 +1,6 @@
 # jsonapi-validator
 
-Validates the given JSON output specs with jsonapi.org
+https://rubygems.org/gems/jsonapi-validator - Validates the given JSON output specs with jsonapi.org
 
 # Installation 
 
@@ -46,3 +46,9 @@ Add in `Gemfile` and do `bundle install`
     
     rake aborted!
     Please fix the above validation errors`
+    
+    # TODO
+    
+    - Include the live sandbox API urls instead of static JSON files
+    - Include the latest schema.json from jsonapi.org instead of static file
+    - Decorate the output with html (various output formatters)
