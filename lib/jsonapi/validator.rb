@@ -2,10 +2,11 @@ module JsonApi
   class Validator
 
     def self.json_file(file)
+      object = nil
       File.open(file) do |f|
-        json = JSON.parse(f.read)
+        object = JSON.parse(f.read)
       end
-      return json(json)
+      return json(object)
     end
 
     def self.json(object)
