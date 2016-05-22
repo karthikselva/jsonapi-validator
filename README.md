@@ -2,6 +2,14 @@
 
 Validates the given JSON output specs with jsonapi.org
 
+# Installation 
+
+`gem install jsonapi-validator` 
+
+or 
+
+Add in `Gemfile` and do `bundle install`
+
 # Usage 
 
 - Place your JSON specs in spec/apis  folder
