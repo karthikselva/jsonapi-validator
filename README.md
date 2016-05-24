@@ -25,7 +25,7 @@ Add in `Gemfile` and do `bundle install`
 `
 
     rake jsonapi:validate 
-    Validating file '/vagrant/salesforce_data_sync/branches/dev/spec/apis/test/invalid_api.json':  FAILED
+    Validating file '/vagrant/my_rails_project/spec/apis/test/invalid_api.json':  FAILED
     The property '#/' of type Hash did not match any of the required schemas. The schema specific errors were:
     
     - oneOf #0:
@@ -41,7 +41,7 @@ Add in `Gemfile` and do `bundle install`
     
     
     
-    Validating file '/vagrant/salesforce_data_sync/branches/dev/spec/apis/test/valid_api.json':  PASSED
+    Validating file '/vagrant/my_rails_project/spec/apis/test/valid_api.json':  PASSED
     ----------------------------
     
     rake aborted!
