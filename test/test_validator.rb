@@ -12,10 +12,10 @@ class TestSchema < Minitest::Test
   end
 
   def test_invalid_json_object
-    assert_equal JsonApi::Validator.json(@invalid_object)[0].size > 0 ,true
+    assert_equal JsonApi::Validator.object(@invalid_object)[0].size > 0 ,true
   end
 
   def test_valid_json_object
-    assert_equal JsonApi::Validator.json(@valid_object),[]
+    assert_equal JsonApi::Validator.object(@valid_object),[]
   end
 end

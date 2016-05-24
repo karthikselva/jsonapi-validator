@@ -46,6 +46,13 @@ Add in `Gemfile` and do `bundle install`
     
     rake aborted!
     Please fix the above validation errors`
+
+
+# Validate withing Rspec
+
+- Use JsonApi::Validator.object(json_object) to validate it is compliant with jsonapi.org
+
+` JsonApi::Validator.object(json_object).to be_true `
     
 # TODO
 

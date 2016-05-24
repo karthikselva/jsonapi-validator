@@ -7,7 +7,7 @@ namespace "jsonapi" do
     json_spec_files = Dir["#{Rails.root}/spec/apis/**/*.json"]
     json_spec_files.each do |spec|
       print "\n\nValidating file '#{spec}': "
-      result =  JsonApi::Validator.json_file(spec)
+      result =  JsonApi::Validator.file(spec)
       if result.nil? or result.empty?
         puts " PASSED\n"
       else
