@@ -1,6 +1,5 @@
 module JsonApi
   class Validator
-
     def self.file(file)
       object = nil
       File.open(file) do |f|
