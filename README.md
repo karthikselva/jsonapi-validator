@@ -48,7 +48,7 @@ Add in `Gemfile` and do `bundle install`
     Please fix the above validation errors`
 
 
-# Validate withing Rspec
+# Validate with Rspec
 
 - Use JsonApi::Validator.object(json_object) to validate it is compliant with jsonapi.org
 
