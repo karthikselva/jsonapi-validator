@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'jsonapi-validator'
-  s.version     = '0.0.2.1'
+  s.version     = '0.0.2.2'
   s.date        = '2016-06-08'
   s.summary     = "jsonapi.org schema validator"
   s.description = "This gem uses jsonapi.org schema to validate API schemas generated in doc/raml/samples or sspec/api directory."
